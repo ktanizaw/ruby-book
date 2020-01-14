@@ -15,7 +15,6 @@ class DeepFreezableTest < Minitest::Test
     Bank::CURRENCIES
     )
     assert Bank::CURRENCIES.frozen?
-
     assert Bank::CURRENCIES.all?{|key,value|key.frozen? && value.frozen? }
   end
 end
