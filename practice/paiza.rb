@@ -10,3 +10,9 @@ end
 
 num = gets.split(" ").map!(&:to_i)
 area_caluclation(*num)
+
+2
+Paiza
+Gino
+
+Hello Paiza,Gino.
