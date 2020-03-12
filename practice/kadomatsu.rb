@@ -8,3 +8,5 @@ end
 
 short = gets.to_i
 kadomatsu(short)
+
+short =~ /^[0-9]+$/
