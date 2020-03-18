@@ -9,4 +9,10 @@ end
 short = gets.to_i
 kadomatsu(short)
 
-short =~ /^[0-9]+$/
+def calculate_length(num)
+  return unless num.between?(1, 100)
+  puts num * 5
+end
+
+num = gets.to_i
+calculate_length(num)  
